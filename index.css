@@ -99,7 +99,7 @@ button[data-variant='purple'] {
 .hero-title {
 	font-size: 44px;
 	font-weight: 600;
-	color: var(--title-color);
+	color: var(--heading-color);
 	line-height: 70px;
 }
 .hero-content {
@@ -216,6 +216,7 @@ div[data-position='top-left'] > div[data-box-color='circle-pattern'] {
 .advantages-title {
 	font-size: 36px;
 	font-weight: 600;
+	color: var(--heading-color);
 }
 .advantages-list {
 	margin-top: 34px;
@@ -231,4 +232,62 @@ div[data-position='top-left'] > div[data-box-color='circle-pattern'] {
 	margin-bottom: 28px;
 }
 /* end of advantages */
+
+/* skill talent */
+#skill-talent {
+	margin-top: 160px;
+}
+.skill-wrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 60px;
+}
+.skill-wrapper > div {
+	width: 50%;
+}
+.skill-title {
+	margin-bottom: 12px;
+	color: var(--heading-color);
+	font-size: 36px;
+}
+.skill-content {
+	margin-bottom: 30px;
+	color: var(--text-color);
+}
+.skill-list {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 16px;
+	color: var(--text-color);
+}
+.skill-list > li {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+}
+.skill-image-wrapper {
+	position: relative;
+	width: 496px;
+	height: 390px;
+}
+.advantages-image-wrapper > img {
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+/* advantages's oranment position = top left */
+div[data-position='bottom-right'] > div[data-box-color='gray'] {
+	transform: rotate(-15deg);
+}
+div[data-position='bottom-right'] > div[data-box-color='yellow'] {
+	top: -36px;
+	right: -36px;
+}
+div[data-position='bottom-right'] > div[data-box-color='circle-pattern'] {
+	bottom: -30px;
+	right: 30px;
+	transform: rotate(90deg);
+}
+/* end of skill talent */
 /* === end of landing page === */
