@@ -86,7 +86,7 @@ button[data-variant='purple'] {
 }
 /* hero */
 #hero {
-	margin-top: 85px;
+	margin-top: 140px;
 }
 .hero-wrapper {
 	display: flex;
@@ -132,35 +132,103 @@ div[data-box-color='circle-pattern'] {
 }
 div[data-box-color='gray'] {
 	background-color: var(--gray);
-	transform: rotate(-15deg);
 	z-index: -1;
 }
 div[data-box-color='purple'] {
 	background-color: var(--purple);
-	bottom: -28px;
-	left: -38px;
 }
 div[data-box-color='yellow'] {
 	background-color: var(--yellow);
-	bottom: -46px;
-	left: 46px;
-}
-div[data-box-color='circle-pattern'] {
-	bottom: 40px;
-	left: 30px;
 }
 div[data-box-size='500'] {
 	width: 500px;
 	aspect-ratio: 1/1;
 }
+div[data-box-size='496'] {
+	width: 496px;
+	height: 390px;
+}
 div[data-box-size='118'] {
 	width: 118px;
+	aspect-ratio: 1/1;
+}
+div[data-box-size='90'] {
+	width: 90px;
 	aspect-ratio: 1/1;
 }
 div[data-box-size='46'] {
 	width: 46px;
 	aspect-ratio: 1/1;
 }
-
+/* hero's ornament position = bottom left */
+div[data-position='bottom-left'] > div[data-box-color='gray'] {
+	transform: rotate(-15deg);
+}
+div[data-position='bottom-left'] > div[data-box-color='purple'] {
+	bottom: -28px;
+	left: -38px;
+}
+div[data-position='bottom-left'] > div[data-box-color='yellow'] {
+	bottom: -46px;
+	left: 46px;
+}
+div[data-position='bottom-left'] > div[data-box-color='circle-pattern'] {
+	bottom: 40px;
+	left: 30px;
+}
 /* end of hero */
+
+/* advantages */
+#advantages {
+	margin-top: 160px;
+}
+.advantages-wrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 60px;
+}
+.advantages-wrapper > div {
+	width: 50%;
+}
+.advantages-image-wrapper {
+	position: relative;
+	width: 496px;
+	height: 390px;
+}
+.advantages-image-wrapper > img {
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+/* advantages's oranment position = top left */
+div[data-position='top-left'] > div[data-box-color='gray'] {
+	transform: rotate(15deg);
+}
+div[data-position='top-left'] > div[data-box-color='purple'] {
+	top: -36px;
+	left: -36px;
+}
+div[data-position='top-left'] > div[data-box-color='circle-pattern'] {
+	bottom: -15px;
+	left: -30px;
+	transform: rotate(90deg);
+}
+.advantages-title {
+	font-size: 36px;
+	font-weight: 600;
+}
+.advantages-list {
+	margin-top: 34px;
+	list-style: none;
+}
+.advantages-list > li {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	color: var(--text-color);
+}
+.advantages-list > li:not(:last-child) {
+	margin-bottom: 28px;
+}
+/* end of advantages */
 /* === end of landing page === */
