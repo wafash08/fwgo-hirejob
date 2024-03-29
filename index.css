@@ -8,6 +8,7 @@
 	--white: #fff;
 	--gray: #e2e5ed;
 	--yellow: #fbb017;
+	--light-gray: #e2e5ed;
 
 	--heading-color: #1f2a36;
 	--text-color: #46505c;
@@ -290,4 +291,89 @@ div[data-position='bottom-right'] > div[data-box-color='circle-pattern'] {
 	transform: rotate(90deg);
 }
 /* end of skill talent */
+
+/* testimony */
+#testimony {
+	margin-top: 160px;
+	background-color: #fafbfc;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.testimony-title {
+	text-align: center;
+	color: var(--heading-color);
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 52px;
+}
+.testimony-wrapper {
+	position: relative;
+}
+button[data-testomony-control='prev'],
+button[data-testomony-control='next'] {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: var(--purple);
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+button[data-testomony-control='prev'] {
+	left: -25px;
+}
+button[data-testomony-control='next'] {
+	right: -25px;
+}
+.testimony-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 28px;
+	list-style: none;
+	text-align: center;
+}
+.testimony-item {
+	background-color: var(--white);
+	box-shadow: 0px 8px 16px 0px #c5c5c540;
+	padding-top: 26px;
+	padding-bottom: 36px;
+	padding-left: 52px;
+	padding-right: 52px;
+}
+.testimony-avatar {
+	width: 140px;
+	aspect-ratio: 1;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: var(--yellow);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	background: #fbb0175e;
+	margin-bottom: 16px;
+}
+.testimony-avatar > img {
+	width: 120px;
+	aspect-ratio: 1;
+}
+.testimony-name {
+	font-size: 30px;
+	color: var(--heading-color);
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.testimony-job {
+	font-size: 18px;
+	color: #9ea0a5;
+	margin-bottom: 12px;
+}
+.testimony-desc {
+	font-size: 18px;
+	color: var(--text-color);
+}
+/* end of testimony */
 /* === end of landing page === */
