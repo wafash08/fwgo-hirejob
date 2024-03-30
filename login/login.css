@@ -8,17 +8,8 @@
 
 	--yellow: #fbb017;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 body {
-	font-family: 'Open Sans', sans-serif;
 	min-height: 100vh;
-}
-a {
-	text-decoration: none;
 }
 main {
 	padding: 40px 16px;

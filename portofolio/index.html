@@ -4,11 +4,416 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portofolio | Hire Job</title>
-		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="../global.css" />
+		<link rel="stylesheet" href="portofolio.css" />
 	</head>
 	<body>
-		<div>
-			<h1 class="text-3xl font-bold underline">Hello from portofolio page</h1>
-		</div>
+		<header>
+			<div class="layout nav-desktop">
+				<a href="/">
+					<span class="sr-only">Back to landing page</span>
+					<img src="/assets/logo-purple.png" alt="Peworld logo" />
+				</a>
+				<div class="buttons-wrapper">
+					<button type="button">
+						<span class="sr-only">lihat pemberitahuan</span>
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							aria-hidden="true"
+						>
+							<path
+								d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z"
+								stroke="#9B9B9B"
+								stroke-width="2.33333"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M13.7295 21C13.5537 21.3031 13.3014 21.5547 12.9978 21.7295C12.6941 21.9044 12.3499 21.9965 11.9995 21.9965C11.6492 21.9965 11.3049 21.9044 11.0013 21.7295C10.6977 21.5547 10.4453 21.3031 10.2695 21"
+								stroke="#9B9B9B"
+								stroke-width="2.33333"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+					<button type="button">
+						<span class="sr-only">lihat pesan</span>
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							aria-hidden="true"
+						>
+							<path
+								d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+								stroke="#9EA0A5"
+								stroke-width="2.33333"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+							<path
+								d="M22 6L12 13L2 6"
+								stroke="#9EA0A5"
+								stroke-width="2.33333"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+					<button type="button" data-type="avatar">
+						<img src="/assets/avatar-mobile.png" alt="your profile" />
+						<span class="sr-only">lihat profile</span>
+					</button>
+				</div>
+			</div>
+
+			<!-- nav mobile -->
+			<nav class="nav-mobile">
+				<ul class="nav-mobile-list">
+					<li class="nav-mobile-item">
+						<a href="/">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M10 2.99963H3V9.99963H10V2.99963Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M21 2.99963H14V9.99963H21V2.99963Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M21 13.9996H14V20.9996H21V13.9996Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M10 13.9996H3V20.9996H10V13.9996Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span class="sr-only">Go to Home page</span>
+						</a>
+					</li>
+					<li class="nav-mobile-item">
+						<a href="#">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M11 18.9996C15.4183 18.9996 19 15.4179 19 10.9996C19 6.58136 15.4183 2.99963 11 2.99963C6.58172 2.99963 3 6.58136 3 10.9996C3 15.4179 6.58172 18.9996 11 18.9996Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M20.9984 20.9997L16.6484 16.6497"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span class="sr-only">Search talent</span>
+						</a>
+					</li>
+					<li class="nav-mobile-item">
+						<a href="/">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M21 11.4997C21.0034 12.8195 20.6951 14.1215 20.1 15.2997C19.3944 16.7114 18.3098 17.8988 16.9674 18.7289C15.6251 19.5591 14.0782 19.9991 12.5 19.9997C11.1801 20.0031 9.87812 19.6947 8.7 19.0997L3 20.9997L4.9 15.2997C4.30493 14.1215 3.99656 12.8195 4 11.4997C4.00061 9.92142 4.44061 8.37451 5.27072 7.03221C6.10083 5.68991 7.28825 4.60523 8.7 3.89966C9.87812 3.30459 11.1801 2.99622 12.5 2.99966H13C15.0843 3.11465 17.053 3.99442 18.5291 5.47052C20.0052 6.94662 20.885 8.91531 21 10.9997V11.4997Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span class="sr-only">chat with talent</span>
+						</a>
+					</li>
+					<li class="nav-mobile-item">
+						<a href="/">
+							<div>
+								<div>
+									<img src="/assets/avatar-mobile.png" alt="Your Avatar" />
+								</div>
+							</div>
+							<span class="sr-only">Go to your profile page</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<!-- bg purple -->
+				<div class="bg-purple"></div>
+				<div class="layout portofolio">
+					<div class="portofolio-profile">
+						<div class="portofolio-profile-avatar">
+							<img src="/assets/louis-tomlinson.png" alt="Louis Tomlinson" />
+						</div>
+						<h2 class="portofolio-profile-name">Louis Tomlinson</h2>
+						<p class="portofolio-profile-job">Web Developer</p>
+						<p class="portofolio-profile-address">
+							<svg
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M14 6.66675C14 11.3334 8 15.3334 8 15.3334C8 15.3334 2 11.3334 2 6.66675C2 5.07545 2.63214 3.54933 3.75736 2.42411C4.88258 1.29889 6.4087 0.666748 8 0.666748C9.5913 0.666748 11.1174 1.29889 12.2426 2.42411C13.3679 3.54933 14 5.07545 14 6.66675Z"
+									stroke="#9EA0A5"
+									stroke-width="1.33333"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M8 8.66675C9.10457 8.66675 10 7.77132 10 6.66675C10 5.56218 9.10457 4.66675 8 4.66675C6.89543 4.66675 6 5.56218 6 6.66675C6 7.77132 6.89543 8.66675 8 8.66675Z"
+									stroke="#9EA0A5"
+									stroke-width="1.33333"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span>Purwokerto, Jawa Tengah</span>
+						</p>
+						<p class="portofolio-profile-status">Talent</p>
+						<p class="portofolio-profile-desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Vestibulum erat orci, mollis nec gravida sed, ornare quis urna.
+							Curabitur eu lacus fringilla, vestibulum risus at.
+						</p>
+						<button type="button" data-variant="purple">Hire</button>
+
+						<section class="skill">
+							<h2>Skill</h2>
+							<ul class="skill-list">
+								<li class="skill-item">Python</li>
+								<li class="skill-item">Laravel</li>
+								<li class="skill-item">Golang</li>
+								<li class="skill-item">Javascript</li>
+								<li class="skill-item">PHP</li>
+								<li class="skill-item">HTML</li>
+								<li class="skill-item">C++</li>
+								<li class="skill-item">Kotlin</li>
+								<li class="skill-item">Swift</li>
+							</ul>
+							<ul class="social-media-list">
+								<li>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										aria-hidden="true"
+									>
+										<path
+											d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+											stroke="#9EA0A5"
+											stroke-width="2.33333"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+										<path
+											d="M22 6L12 13L2 6"
+											stroke="#9EA0A5"
+											stroke-width="2.33333"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									<span>Louistommo@gmail.com</span>
+								</li>
+								<li>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										aria-hidden="true"
+									>
+										<g clip-path="url(#clip0_154_107)">
+											<path
+												d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+												stroke="#9EA0A5"
+												stroke-width="2.33333"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+												stroke="#9EA0A5"
+												stroke-width="2.33333"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M17.5 6.5H17.51"
+												stroke="#9EA0A5"
+												stroke-width="2.33333"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_154_107">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>@Louist91</span>
+								</li>
+								<li>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+										aria-hidden="true"
+									>
+										<g clip-path="url(#clip0_154_116)">
+											<path
+												d="M16 21.9999V18.1299C16.0375 17.6531 15.9731 17.1737 15.811 16.7237C15.6489 16.2737 15.3929 15.8634 15.06 15.5199C18.2 15.1699 21.5 13.9799 21.5 8.51994C21.4997 7.12376 20.9627 5.78114 20 4.76994C20.4559 3.54844 20.4236 2.19829 19.91 0.999938C19.91 0.999938 18.73 0.649938 16 2.47994C13.708 1.85876 11.292 1.85876 9 2.47994C6.27 0.649938 5.09 0.999938 5.09 0.999938C4.57638 2.19829 4.54414 3.54844 5 4.76994C4.03013 5.78864 3.49252 7.1434 3.5 8.54994C3.5 13.9699 6.8 15.1599 9.94 15.5499C9.611 15.8899 9.35726 16.2953 9.19531 16.7399C9.03335 17.1844 8.96681 17.658 9 18.1299V21.9999M9 18.9999C4 20.4999 4 16.4999 2 15.9999L9 18.9999Z"
+												stroke="#9EA0A5"
+												stroke-width="2.33333"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_154_116">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>@Louistommo</span>
+								</li>
+								<li>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_154_114)">
+											<path
+												d="M22.6501 14.39L12.0001 22.13L1.35014 14.39C1.20737 14.285 1.10146 14.1375 1.04758 13.9687C0.993694 13.7998 0.994592 13.6183 1.05014 13.45L2.27014 9.66996L4.71014 2.15996C4.73381 2.09877 4.77148 2.04397 4.82014 1.99996C4.89938 1.92758 5.00282 1.88745 5.11014 1.88745C5.21746 1.88745 5.3209 1.92758 5.40014 1.99996C5.45153 2.04963 5.48939 2.11158 5.51014 2.17996L7.95014 9.66996H16.0501L18.4901 2.15996C18.5138 2.09877 18.5515 2.04397 18.6001 1.99996C18.6794 1.92758 18.7828 1.88745 18.8901 1.88745C18.9975 1.88745 19.1009 1.92758 19.1801 1.99996C19.2315 2.04963 19.2694 2.11158 19.2901 2.17996L21.7301 9.68996L23.0001 13.45C23.0507 13.6234 23.0439 13.8086 22.9808 13.9779C22.9178 14.1473 22.8018 14.2918 22.6501 14.39V14.39Z"
+												stroke="#9EA0A5"
+												stroke-width="2.33333"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_154_114">
+												<rect width="24" height="24" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>@Louistommo91</span>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="portofolio-projects">
+						<nav>
+							<ul>
+								<li>
+									<button type="button" data-active="active">Portofolio</button>
+									<div></div>
+								</li>
+								<li><button type="button">Pengalaman Kerja</button></li>
+							</ul>
+						</nav>
+						<ul>
+							<li>
+								<img src="/assets/portofolio-1.png" alt="Portofolio 1" />
+							</li>
+							<li>
+								<img src="/assets/portofolio-2.png" alt="Portofolio 2" />
+							</li>
+							<li>
+								<img src="/assets/portofolio-3.png" alt="Portofolio 3" />
+							</li>
+							<li>
+								<img src="/assets/portofolio-4.png" alt="Portofolio 4" />
+							</li>
+							<li>
+								<img src="/assets/portofolio-5.png" alt="Portofolio 5" />
+							</li>
+							<li>
+								<img src="/assets/portofolio-6.png" alt="Portofolio 6" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="layout footer-wrapper">
+				<a href="/">
+					<span class="sr-only">back to landing page</span>
+					<img src="/assets/logo-white.png" alt="Logo peworld" />
+				</a>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
+					ipsum et dui rhoncus auctor.
+				</p>
+				<div class="line"></div>
+				<div class="copyright-wrapper">
+					<p>2020 Pewworld. All right reserved</p>
+					<div>
+						<p>Telepon</p>
+						<p>Email</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
