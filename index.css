@@ -372,40 +372,8 @@ button[data-testomony-control='next'] {
 
 /* footer */
 footer {
-	background-color: var(--purple);
-	padding-top: 70px;
-	padding-bottom: 42px;
-}
-.footer-wrapper > a {
-	display: inline-block;
-	margin-bottom: 30px;
-}
-.footer-wrapper > p {
-	font-size: 18px;
-	color: var(--white);
-	width: 380px;
-	font-weight: 400;
-	margin-bottom: 68px;
-}
-.line {
-	width: 100%;
-	height: 1px;
-	background-color: var(--white);
-	margin-bottom: 30px;
-}
-.copyright-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.copyright-wrapper p {
-	font-size: 18px;
-	color: var(--white);
-}
-.copyright-wrapper > div {
-	display: flex;
-	align-items: center;
-	gap: 80px;
+	display: block;
+	color: #fff;
 }
 /* end of footer */
 /* === end of landing page === */

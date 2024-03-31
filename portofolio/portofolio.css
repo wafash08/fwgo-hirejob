@@ -48,6 +48,13 @@ header {
 	border-radius: 100%;
 	overflow: hidden;
 	border: 1px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-mobile-item:last-child > a > div > div > img {
+	display: block;
+	width: 100%;
 }
 main {
 	background-color: #f6f7f8;
@@ -230,45 +237,6 @@ button[data-active='active'] {
 	transform: scale(1.05);
 }
 /* footer */
-footer {
-	background-color: var(--purple);
-	padding-top: 70px;
-	padding-bottom: 42px;
-	padding-left: 16px;
-	padding-right: 16px;
-	display: none;
-}
-.footer-wrapper > a {
-	display: inline-block;
-	margin-bottom: 30px;
-}
-.footer-wrapper > p {
-	font-size: 18px;
-	color: var(--white);
-	width: 380px;
-	font-weight: 400;
-	margin-bottom: 68px;
-}
-.line {
-	width: 100%;
-	height: 1px;
-	background-color: #fff;
-	margin-bottom: 30px;
-}
-.copyright-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.copyright-wrapper p {
-	font-size: 18px;
-}
-.copyright-wrapper > div {
-	display: flex;
-	align-items: center;
-	gap: 80px;
-}
-
 @media screen and (min-width: 512px) {
 	.portofolio-projects > ul {
 		grid-template-columns: repeat(2, 1fr);
