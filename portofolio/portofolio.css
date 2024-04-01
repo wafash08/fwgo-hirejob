@@ -68,8 +68,8 @@ main {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 .portofolio > div {
 	background-color: white;

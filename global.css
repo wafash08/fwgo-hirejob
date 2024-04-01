@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/*
+catatan untuk meningkatkan skor hasil analisa pagespeed
+1. bagian footer versi desktop tidak muncul ✅
+2. halaman portofolio tidak terdapat padding pada versi mobile ✅
+3. tambahkan link favicon untuk setiap halaman ✅
+4. tambahkan width dan height pada elemen img ✅
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -37,12 +45,18 @@ a {
 	text-decoration: none;
 }
 footer {
-	background-color: var(--purple);
+	background-color: #5e50a1;
 	padding-top: 70px;
 	padding-bottom: 42px;
 	padding-left: 16px;
 	padding-right: 16px;
 	display: none;
+	color: #fff;
+}
+@media screen and (min-width: 768px) {
+	footer {
+		display: block;
+	}
 }
 .footer-wrapper > a {
 	display: inline-block;
