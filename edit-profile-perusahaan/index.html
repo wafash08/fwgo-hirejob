@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Edit Profile Pekerja | Hire Job</title>
+		<link rel="stylesheet" href="../style.css" />
+	</head>
+	<body class="min-h-screen bg-[#F6F7F8]">
+		<header class="md:bg-white z-50">
+			<!-- desktop navigation -->
+			<div class="layout hidden md:flex items-center justify-between h-24">
+				<a href="/">
+					<span class="sr-only">Go to landing page</span>
+					<img src="/assets/logo-purple.png" alt="Logo Peworld" />
+				</a>
+
+				<nav>
+					<ul class="flex gap-10">
+						<li class="flex items-center">
+							<button type="button">
+								<span class="sr-only">lihat pemberitahuan</span>
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									aria-hidden="true"
+								>
+									<path
+										d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z"
+										stroke="#9B9B9B"
+										stroke-width="2.33333"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M13.7295 21C13.5537 21.3031 13.3014 21.5547 12.9978 21.7295C12.6941 21.9044 12.3499 21.9965 11.9995 21.9965C11.6492 21.9965 11.3049 21.9044 11.0013 21.7295C10.6977 21.5547 10.4453 21.3031 10.2695 21"
+										stroke="#9B9B9B"
+										stroke-width="2.33333"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</button>
+						</li>
+						<li class="flex items-center">
+							<button type="button">
+								<span class="sr-only">lihat pesan</span>
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									aria-hidden="true"
+								>
+									<path
+										d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+										stroke="#9EA0A5"
+										stroke-width="2.33333"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M22 6L12 13L2 6"
+										stroke="#9EA0A5"
+										stroke-width="2.33333"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</button>
+						</li>
+						<li class="flex items-center">
+							<button type="button" class="w-8 h-8 rounded-full">
+								<span class="sr-only">lihat profil kamu</span>
+								<img src="/assets/louis-tomlinson.png" alt="Avatar kamu" />
+							</button>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- desktop navigation ends -->
+			<!-- mobile navigation -->
+			<nav
+				class="md:hidden flex items-center fixed bottom-0 left-0 w-full h-[80px] bg-white rounded-tl-[30px] rounded-tr-[30px] overflow-hidden"
+			>
+				<ul class="w-full flex items-center justify-between px-9">
+					<li>
+						<a href="/">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M10 2.99963H3V9.99963H10V2.99963Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M21 2.99963H14V9.99963H21V2.99963Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M21 13.9996H14V20.9996H21V13.9996Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M10 13.9996H3V20.9996H10V13.9996Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span class="sr-only">Go to Home page</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M11 18.9996C15.4183 18.9996 19 15.4179 19 10.9996C19 6.58136 15.4183 2.99963 11 2.99963C6.58172 2.99963 3 6.58136 3 10.9996C3 15.4179 6.58172 18.9996 11 18.9996Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M20.9984 20.9997L16.6484 16.6497"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span class="sr-only">Search talent</span>
+						</a>
+					</li>
+					<li>
+						<a href="/">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								aria-hidden="true"
+							>
+								<path
+									d="M21 11.4997C21.0034 12.8195 20.6951 14.1215 20.1 15.2997C19.3944 16.7114 18.3098 17.8988 16.9674 18.7289C15.6251 19.5591 14.0782 19.9991 12.5 19.9997C11.1801 20.0031 9.87812 19.6947 8.7 19.0997L3 20.9997L4.9 15.2997C4.30493 14.1215 3.99656 12.8195 4 11.4997C4.00061 9.92142 4.44061 8.37451 5.27072 7.03221C6.10083 5.68991 7.28825 4.60523 8.7 3.89966C9.87812 3.30459 11.1801 2.99622 12.5 2.99966H13C15.0843 3.11465 17.053 3.99442 18.5291 5.47052C20.0052 6.94662 20.885 8.91531 21 10.9997V11.4997Z"
+									stroke="#9EA0A5"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							<span class="sr-only">chat with talent</span>
+						</a>
+					</li>
+					<li>
+						<a
+							href="/"
+							class="w-[30px] h-[30px] rounded-full block border border-[#5E50A1]"
+						>
+							<div class="border-2 border-white rounded-full">
+								<img src="/assets/louis-tomlinson.png" alt="Your Avatar" />
+							</div>
+							<span class="sr-only">Go to your profile page</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- mobile navigation ends -->
+			<div></div>
+		</header>
+		<main class="mb-28 md:mb-36 relative">
+			<!-- bg purple -->
+			<div class="hidden md:block bg-[#5E50A1] h-80"></div>
+			<section class="mt-[70px] md:-mt-52">
+				<div
+					class="layout px-4 lg:px-0 flex flex-col md:flex-row gap-5 md:gap-7"
+				>
+					<!-- profile perusahaan -->
+					<section class="space-y-5">
+						<section class="bg-white rounded-lg p-5 md:p-8 pt-10">
+							<div
+								class="w-[150px] h-[150px] rounded-full flex items-center justify-center mx-auto mb-2"
+							>
+								<img
+									src="/assets/louis-tomlinson.png"
+									alt="PT. Martabat Jaya Abadi"
+								/>
+							</div>
+							<button
+								type="button"
+								class="flex items-center gap-2 mx-auto mb-5"
+							>
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									aria-hidden="true"
+								>
+									<path
+										d="M0 12.6663V16.0001H3.33379L13.1707 6.16314L9.8369 2.82935L0 12.6663Z"
+										fill="#9B9B9B"
+									/>
+									<path
+										d="M15.7381 2.33586L13.6622 0.260036C13.3155 -0.0866786 12.751 -0.0866786 12.4042 0.260036L10.7773 1.88693L14.1111 5.22072L15.738 3.59383C16.0848 3.24711 16.0848 2.68258 15.7381 2.33586Z"
+										fill="#9B9B9B"
+									/>
+								</svg>
+								<span class="text-[22px] text-[#9EA0A5] font-semibold"
+									>Edit</span
+								>
+							</button>
+							<h2 class="text-[22px] text-[#1F2A36] font-semibold mb-1">
+								PT. Martabat Jaya Abadi
+							</h2>
+							<p class="text-[14px] text-[#1F2A36] mb-3">Financial</p>
+							<p class="flex items-center gap-3">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									aria-hidden="true"
+								>
+									<path
+										d="M14 6.66675C14 11.3334 8 15.3334 8 15.3334C8 15.3334 2 11.3334 2 6.66675C2 5.07545 2.63214 3.54933 3.75736 2.42411C4.88258 1.29889 6.4087 0.666748 8 0.666748C9.5913 0.666748 11.1174 1.29889 12.2426 2.42411C13.3679 3.54933 14 5.07545 14 6.66675Z"
+										stroke="#9EA0A5"
+										stroke-width="1.33333"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M8 8.66675C9.10457 8.66675 10 7.77132 10 6.66675C10 5.56218 9.10457 4.66675 8 4.66675C6.89543 4.66675 6 5.56218 6 6.66675C6 7.77132 6.89543 8.66675 8 8.66675Z"
+										stroke="#9EA0A5"
+										stroke-width="1.33333"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+								<span class="text-[14px] text-[#9EA0A5]"
+									>Purwokerto, Jawa Tengah</span
+								>
+							</p>
+						</section>
+						<section class="space-y-4">
+							<button
+								type="button"
+								class="w-full py-4 bg-[#5E50A1] text-base text-white rounded font-bold tracking-wide border border-[#5E50A1]"
+							>
+								Simpan
+							</button>
+							<button
+								type="button"
+								class="w-full py-4 bg-transparent text-base text-[#5E50A1] rounded font-bold tracking-wide border border-[#5E50A1]"
+							>
+								Batal
+							</button>
+						</section>
+					</section>
+					<!-- form edit profile perusahaan -->
+					<section class="bg-white rounded-lg md:flex-1">
+						<h2
+							class="text-lg md:text-[22px] text-[#1F2A36] font-semibold ml-5 mt-5 mb-5 md:ml-[30px] md:mt-[30px] md:mb-[30px]"
+						>
+							Data diri
+						</h2>
+						<div class="bg-[#E2E5ED] h-[1px] mb-30px"></div>
+						<form class="p-5 pt-8 md:p-[30px] grid gap-8">
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="namaPerusahaan"
+									>Nama Perusahaan</label
+								>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="text"
+									name="namaPerusahaan"
+									id="namaPerusahaan"
+									placeholder="Masukan nama perusahan"
+								/>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="bidang"
+									>Bidang</label
+								>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="text"
+									name="bidang"
+									id="bidang"
+									placeholder="Masukan bidang perusahaan ex : Financial"
+								/>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="kota">Kota</label>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="text"
+									name="kota"
+									id="kota"
+									placeholder="Masukan Kota"
+								/>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="deskripsi"
+									>Deskripsi</label
+								>
+								<textarea
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									name="deskripsi"
+									id="deskripsi"
+									cols="30"
+									rows="5"
+									placeholder="Tuliskan deskripsi singkat"
+								></textarea>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="email">Email</label>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="email"
+									name="email"
+									id="email"
+									placeholder="Masukan Email"
+								/>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="instagram"
+									>Instagram</label
+								>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="text"
+									name="instagram"
+									id="instagram"
+									placeholder="Masukan instagram"
+								/>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="phoneNumber"
+									>Nomor Telepon</label
+								>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="tel"
+									name="phoneNumber"
+									id="phoneNumber"
+									placeholder="Masukan nomor telepon"
+								/>
+							</div>
+							<div class="flex flex-col gap-1">
+								<label class="text-xs text-[#9EA0A5]" for="linkedin"
+									>Linkedin</label
+								>
+								<input
+									class="p-4 border border-[#E2E5ED] placeholder:text-sm placeholder:text-[#858D96] rounded text-sm text-[#1F2A36]"
+									type="text"
+									name="linkedin"
+									id="linkedin"
+									placeholder="Masukan linkedin"
+								/>
+							</div>
+						</form>
+					</section>
+				</div>
+			</section>
+		</main>
+		<footer class="hidden md:block bg-[#5E50A1]">
+			<div class="layout pt-[70px] pb-10 text-white">
+				<a href="/" class="inline-block mb-8">
+					<span class="sr-only">back to landing page</span>
+					<img src="/assets/logo-white.png" alt="Logo peworld" />
+				</a>
+				<p class="text-lg max-w-96 leading-7 mb-16">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
+					ipsum et dui rhoncus auctor.
+				</p>
+				<div class="bg-white h-[1px] mb-8"></div>
+				<div class="flex items-center justify-between">
+					<p>2020 Pewworld. All right reserved</p>
+					<div class="flex items-center gap-20">
+						<p>Telepon</p>
+						<p>Email</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

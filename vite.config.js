@@ -9,7 +9,10 @@ export default defineConfig({
 				main: resolve(__dirname, 'index.html'),
 				home: resolve(__dirname, 'home/index.html'),
 				portofolio: resolve(__dirname, 'portofolio/index.html'),
-				'edit-profile': resolve(__dirname, 'pekerja/edit-profile/index.html'),
+				'edit-profile-perusahaan': resolve(
+					__dirname,
+					'edit-profile-perusahaan/index.html'
+				),
 				login: resolve(__dirname, 'login/index.html'),
 			},
 		},
