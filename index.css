@@ -199,6 +199,10 @@ div[data-position='top-left'] > div[data-box-color='circle-pattern'] {
 .advantages-list > li:not(:last-child) {
 	margin-bottom: 28px;
 }
+.advantages-list > li > div {
+	width: 24px;
+	height: 24px;
+}
 /* end of advantages */
 
 /* skill talent */
@@ -233,6 +237,10 @@ div[data-position='top-left'] > div[data-box-color='circle-pattern'] {
 	display: flex;
 	align-items: center;
 	gap: 28px;
+}
+.skill-list > li > div {
+	width: 24px;
+	height: 24px;
 }
 .skill-image-wrapper {
 	position: relative;
@@ -315,17 +323,12 @@ button[data-testomony-control='next'] {
 	aspect-ratio: 1;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: var(--yellow);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 100%;
-	background: #fbb0175e;
 	margin-bottom: 16px;
-}
-.testimony-avatar > img {
-	width: 120px;
-	aspect-ratio: 1;
+	border: 10px solid #fbb0175e;
 }
 .testimony-name {
 	font-size: 30px;

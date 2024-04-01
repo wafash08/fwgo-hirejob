@@ -82,12 +82,11 @@ main {
 	padding-right: 20px;
 }
 .portofolio-profile-avatar {
-	margin-bottom: 24px;
-}
-.portofolio-profile-avatar > img {
-	display: block;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 24px;
+	width: 150px;
+	height: 150px;
 }
 .portofolio-profile-name {
 	font-size: 22px;
@@ -259,15 +258,19 @@ button[data-active='active'] {
 		align-items: center;
 		gap: 50px;
 	}
+	.buttons-wrapper > button {
+		border: none;
+		background-color: transparent;
+	}
 	button[data-type='avatar'] {
 		width: 32px;
 		height: 32px;
 		border-radius: 100%;
 		padding: 0;
 	}
-	button[data-type='avatar'] > img {
-		display: block;
-		height: 100%;
+	button[data-type='avatar'] > div {
+		width: 32px;
+		height: 32px;
 	}
 	section {
 		position: relative;
