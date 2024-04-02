@@ -10,28 +10,40 @@ hasil slicing ini bisa dilihat pada [link ini](https://wafash-peworld.netlify.ap
 
 ## Fitur halaman
 
-untuk langsung mengunjungi halaman terkait, silakan klik gambar masing-masing halaman
+untuk langsung mengunjungi halaman terkait, silakan kunjungi di alamar url masing-masing
 
 ### halaman landing (belum responsif)
 
-[![Landing Page](/screenshots/Landing-page-Hire-Job.png 'Landing Page')](https://wafash-peworld.netlify.app/)
+alamat url: [https://wafash-peworld.netlify.app/](https://wafash-peworld.netlify.app/)
+
+![Landing Page](/screenshots/Landing-page-Hire-Job.png 'Landing Page')
 
 ### halaman home (sudah responsif)
 
-[![Home Page](/screenshots/Home-Hire-Job.png 'Home Page')](https://wafash-peworld.netlify.app/home/)
+alamat url: [https://wafash-peworld.netlify.app/home/](https://wafash-peworld.netlify.app/home/)
+
+![Home Page](/screenshots/Home-Hire-Job.png 'Home Page')
 
 ### halaman portofolio (sudah responsif)
 
-[![Portofolio Page](/screenshots/Portofolio-Hire-Job.png 'Portofolio Page')](https://wafash-peworld.netlify.app/portofolio/)
+alamat url: [https://wafash-peworld.netlify.app/portofolio/](https://wafash-peworld.netlify.app/portofolio/)
+
+![Portofolio Page](/screenshots/Portofolio-Hire-Job.png 'Portofolio Page')
 
 ### halaman login (sudah responsif)
 
-[![Login Page](/screenshots/Login-Peworld.png 'Login Page')](https://wafash-peworld.netlify.app/login/)
+alamat url: [https://wafash-peworld.netlify.app/login/](https://wafash-peworld.netlify.app/login/)
+
+![Login Page](/screenshots/Login-Peworld.png 'Login Page')
 
 ### halaman edit profile pekerja (sudah responsif)
 
-[![Edit Profile Pekerja Page](/screenshots/Edit-Profile-Pekerja-Hire-Job.png 'Edit Profile Pekerja Page')](https://wafash-peworld.netlify.app/edit-profile-pekerja/)
+alamat url: [https://wafash-peworld.netlify.app/edit-profile-pekerja/](https://wafash-peworld.netlify.app/edit-profile-pekerja/)
+
+![Edit Profile Pekerja Page](/screenshots/Edit-Profile-Pekerja-Hire-Job.png 'Edit Profile Pekerja Page')
 
 ### halaman edit profile perusahaan (sudah responsif)
 
-[![Edit Profile Perusahaan Page](/screenshots/Edit-Profile-Perusahaan-Hire-Job.png 'Edit Profile Perusahaan Page')](https://wafash-peworld.netlify.app/edit-profile-perusahaan/)
+alamat url: [https://wafash-peworld.netlify.app/edit-profile-perusahaan/](https://wafash-peworld.netlify.app/edit-profile-perusahaan/)
+
+![Edit Profile Perusahaan Page](/screenshots/Edit-Profile-Perusahaan-Hire-Job.png 'Edit Profile Perusahaan Page')
