@@ -16,34 +16,34 @@ untuk langsung mengunjungi halaman terkait, silakan kunjungi di alamar url masin
 
 alamat url: [https://wafash-peworld.netlify.app/](https://wafash-peworld.netlify.app/)
 
-![Landing Page](/screenshots/Landing-page-Hire-Job.png 'Landing Page')
+![Landing Page](/screenshots/Landing-page-Hire-Job.jpg 'Landing Page')
 
 ### halaman home (sudah responsif)
 
 alamat url: [https://wafash-peworld.netlify.app/home/](https://wafash-peworld.netlify.app/home/)
 
-![Home Page](/screenshots/Home-Hire-Job.png 'Home Page')
+![Home Page](/screenshots/Home-Hire-Job.jpg 'Home Page')
 
 ### halaman portofolio (sudah responsif)
 
 alamat url: [https://wafash-peworld.netlify.app/portofolio/](https://wafash-peworld.netlify.app/portofolio/)
 
-![Portofolio Page](/screenshots/Portofolio-Hire-Job.png 'Portofolio Page')
+![Portofolio Page](/screenshots/Portofolio-Hire-Job.jpg 'Portofolio Page')
 
 ### halaman login (sudah responsif)
 
 alamat url: [https://wafash-peworld.netlify.app/login/](https://wafash-peworld.netlify.app/login/)
 
-![Login Page](/screenshots/Login-Peworld.png 'Login Page')
+![Login Page](/screenshots/Login-Peworld.jpg 'Login Page')
 
 ### halaman edit profile pekerja (sudah responsif)
 
 alamat url: [https://wafash-peworld.netlify.app/edit-profile-pekerja/](https://wafash-peworld.netlify.app/edit-profile-pekerja/)
 
-![Edit Profile Pekerja Page](/screenshots/Edit-Profile-Pekerja-Hire-Job.png 'Edit Profile Pekerja Page')
+![Edit Profile Pekerja Page](/screenshots/Edit-Profile-Pekerja-Hire-Job.jpg 'Edit Profile Pekerja Page')
 
 ### halaman edit profile perusahaan (sudah responsif)
 
 alamat url: [https://wafash-peworld.netlify.app/edit-profile-perusahaan/](https://wafash-peworld.netlify.app/edit-profile-perusahaan/)
 
-![Edit Profile Perusahaan Page](/screenshots/Edit-Profile-Perusahaan-Hire-Job.png 'Edit Profile Perusahaan Page')
+![Edit Profile Perusahaan Page](/screenshots/Edit-Profile-Perusahaan-Hire-Job.jpg 'Edit Profile Perusahaan Page')
