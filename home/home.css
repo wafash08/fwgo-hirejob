@@ -286,6 +286,9 @@ button[data-variant='notification'] > div {
 .search-form > input[type='text']::placeholder {
 	color: var(--text-color-2);
 }
+.search-form > input[type='text']:focus {
+	outline: none;
+}
 .search-form > button[type='button'] {
 	border: none;
 	background-color: transparent;
