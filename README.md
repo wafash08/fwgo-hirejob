@@ -10,7 +10,7 @@ hasil slicing ini bisa dilihat pada [link ini](https://wafash-peworld.netlify.ap
 
 ## Fitur halaman
 
-untuk langsung mengunjungi halaman terkait, silakan kunjungi di alamar url masing-masing
+untuk langsung mengunjungi halaman terkait, silakan kunjungi di alamat url masing-masing
 
 ### halaman landing (belum responsif)
 
