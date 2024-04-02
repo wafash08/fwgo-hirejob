@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/*
-catatan untuk meningkatkan skor hasil analisa pagespeed
-1. bagian footer versi desktop tidak muncul ✅
-2. halaman portofolio tidak terdapat padding pada versi mobile ✅
-3. tambahkan link favicon untuk setiap halaman ✅
-4. tambahkan width dan height pada elemen img ✅
-*/
-
 * {
 	margin: 0;
 	padding: 0;

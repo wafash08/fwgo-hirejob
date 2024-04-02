@@ -70,6 +70,8 @@ button {
 		align-items: center;
 		justify-content: space-between;
 		height: 100px;
+		padding-left: 16px;
+		padding-right: 16px;
 	}
 	.buttons-wrapper {
 		display: flex;
@@ -235,19 +237,27 @@ button[data-variant='notification'] > div {
 /* job section ends */
 
 /* top job section starts */
-.top-job-section {
+.top-job-section,
+.top-jobs-leading-title {
 	display: none;
+}
+.top-jobs-leading-title {
+	align-items: center;
+	height: 80px;
+	background-color: var(--purple);
+	color: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 @media screen and (min-width: 768px) {
 	.top-job-section {
 		display: block;
+		padding-left: 16px;
+		padding-right: 16px;
 	}
-}
-
-.top-job-section > div:first-child {
-	height: 80px;
-	background-color: var(--purple);
-	color: #fff;
+	.top-jobs-leading-title {
+		display: flex;
+	}
 }
 .top-job-section > div > div {
 	height: 100%;
@@ -260,14 +270,22 @@ button[data-variant='notification'] > div {
 
 /* search starts */
 .search-wrapper {
-	background-color: #fff;
 	margin-top: 50px;
-	box-shadow: 0px 1px 20px 0px #c5c5c540;
-	border-radius: 8px;
 	margin-bottom: 50px;
 	overflow: hidden;
+	/* padding-left: 16px;
+	padding-right: 16px; */
+}
+@media screen and (min-width: 1200px) {
+	.search-wrapper {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
 .search-form {
+	background-color: #fff;
+	box-shadow: 0px 1px 20px 0px #c5c5c540;
+	border-radius: 8px;
 	height: 70px;
 	display: flex;
 	align-items: center;

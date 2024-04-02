@@ -235,6 +235,12 @@ button[data-active='active'] {
 	transition: 400ms ease-in-out transform;
 	transform: scale(1.05);
 }
+.portofolio-projects > ul > li > p {
+	text-align: center;
+	font-size: 14px;
+	color: var(--text-color);
+	margin-top: 8px;
+}
 /* footer */
 @media screen and (min-width: 512px) {
 	.portofolio-projects > ul {
@@ -285,8 +291,6 @@ button[data-active='active'] {
 		background-color: var(--purple);
 	}
 	.portofolio {
-		padding-left: 0px;
-		padding-right: 0px;
 		flex-direction: row;
 		gap: 30px;
 		position: relative;
@@ -306,5 +310,11 @@ button[data-active='active'] {
 @media screen and (min-width: 1024px) {
 	.portofolio-projects > ul {
 		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media screen and (min-width: 1200px) {
+	.portofolio {
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
