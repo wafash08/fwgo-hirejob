@@ -238,16 +238,19 @@ button[data-variant='notification'] > div {
 
 /* top job section starts */
 .top-job-section,
-.top-jobs-leading-title {
+.top-jobs-leading-title-section {
 	display: none;
 }
-.top-jobs-leading-title {
-	align-items: center;
-	height: 80px;
+.top-jobs-leading-title-section {
 	background-color: var(--purple);
+}
+.top-jobs-leading-title {
+	height: 80px;
 	color: #fff;
 	padding-left: 16px;
 	padding-right: 16px;
+	display: flex;
+	align-items: center;
 }
 @media screen and (min-width: 768px) {
 	.top-job-section {
@@ -255,8 +258,8 @@ button[data-variant='notification'] > div {
 		padding-left: 16px;
 		padding-right: 16px;
 	}
-	.top-jobs-leading-title {
-		display: flex;
+	.top-jobs-leading-title-section {
+		display: block;
 	}
 }
 .top-job-section > div > div {
@@ -277,7 +280,9 @@ button[data-variant='notification'] > div {
 	padding-right: 16px; */
 }
 @media screen and (min-width: 1200px) {
-	.search-wrapper {
+	.search-wrapper,
+	.top-jobs-leading-title,
+	.nav-desktop {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
